@@ -1,0 +1,128 @@
+h2, #header {
+	font-size: 50px;
+	font-size: 8.5vw;
+	text-align: center;
+}
+body {
+	background-color: #ededed;
+}
+.notes {
+	text-align: center;
+}
+.notes #controls {
+	margin-bottom: 10px;
+}
+.notes .icon-doc-text {
+	font-size: 30px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+}
+.notes .icon-doc-text:hover {
+	cursor: pointer;
+	font-size: 37px !important;
+}
+.notes ul#create-new-note {
+	text-align: center;
+}
+.notes ul#create-new-note .medium.btn.primary {
+	float: left;
+	height: 35px;
+	width: 100%;
+	top: -13px;
+	background-color: #2fc22f;
+	border-color: #2fc22f;
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-o-transition: all 500ms;
+	transition: all 500ms;
+}
+.notes ul#create-new-note .medium.btn.primary:hover {
+	background-color: #219821;
+	border-color: #219821;
+}
+.notes #notes-list li {
+	margin: 15px;
+	float: left;
+	position: relative;
+	width: 30%;
+}
+@media screen and (max-width: 900px) {
+	.notes #notes-list li {
+		width: 70%;
+		text-align: center;
+		margin: 0 auto;
+		float: none;
+		position: relative;
+		margin-bottom: 10px;
+   }
+}
+.notes #notes-list li div {
+	display: block;
+	height: 329px;
+	-moz-transition: -moz-transform 0.15s linear;
+	-o-transition: -o-transform 0.15s linear;
+	-webkit-transition: -webkit-transform 0.15s linear;
+	text-align: center;
+	border-radius: 10px;
+}
+.notes #notes-list li div .time {
+	font-size: 12px;
+	margin: 0;
+	padding: 10px;
+	padding-right: 20px;
+	float: right;
+	color: black;
+	font-style: italic;
+}
+.notes #notes-list li div .note-title {
+	width: 90%;
+	height: 45px;
+	border: none;
+	resize: none;
+	font-size: 16px;
+	padding: 10px;
+	text-align: center;
+}
+.notes #notes-list li div .note-content {
+	width: 90%;
+	height: 202px;
+	resize: none;
+	border: none;
+	font-size: 16px;
+}
+.notes #notes-list li:nth-child(1n) div {
+	background-color: #dadada;
+}
+.notes #notes-list span {
+	float: right;
+}
+.notes #notes-list i {
+	font-size: 12px;
+	float: right;
+}
+.notes #notes-list i:before {
+	margin: 0 3px;
+}
+.notes #notes-list i:hover {
+	cursor: pointer;
+}
+.notes #notes-list i.icon-pencil {
+	color: #f6b83f;
+}
+.notes #notes-list i.icon-cancel {
+	color: red;
+}
+.notes #notes-list i.icon-check {
+	position: absolute;
+	padding: 10px;
+	color: #00b600;
+	padding-left: 0px;
+}
+.notes #notes-list .text {
+	float: none;
+}
+#btnCikisYap:hover{
+	cursor:pointer;
+}
